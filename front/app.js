@@ -2,7 +2,7 @@ const express = require("express");
 const handlebars = require('express-handlebars')
 const app = express();
 const session = require("express-session");
-const main = require("./routes/main");
+const main = require("./src/routes/main");
 require('dotenv').config();
 
 //CONFIG

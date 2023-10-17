@@ -1,0 +1,192 @@
+body {
+
+    background-color: #53AC59 !important;
+    
+}
+
+@font-face {
+    font-family: PoppinsEB;
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: PoppinsF;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+header{
+
+    background-color: #0F684B;
+    height: 100px;
+
+}
+
+p#h{
+
+    color: white;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: xx-large;
+    font-family: PoppinsEB;
+
+}
+
+div#data{
+
+    color: white;
+    font-family: PoppinsEB;
+
+}
+
+section.info {
+
+    margin-top: 40px;
+
+
+}
+
+section.cont {
+
+    margin-top: 10px;
+
+
+}
+
+
+div.box{
+
+    font-family: PoppinsEB;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+
+}
+
+.txtB {
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+img.icon {
+
+    width: 72px;
+    height: 72px;
+
+}
+
+div#pData{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.alinhamento{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+div#linha{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;    
+    border: #1C232E 3px solid;
+    border-radius: 16px;
+
+}
+
+footer{
+
+    background-color: #3B8952;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.graficos {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.botao {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bt1{
+
+    font-family: PoppinsF !important;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#bt2{
+
+    font-family: PoppinsF !important;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#bt3{
+
+    font-family: PoppinsF !important;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#bt0 {
+
+    font-family: PoppinsF !important;
+
+}
+
+.graphic{
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.chart {
+
+    background-color: white;
+    border: white 5px solid;
+    border-radius: 16px;
+    width: 1000px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+
+}

@@ -1,6 +1,11 @@
 body {
 
-    background-color: #53AC59 !important;
+    background-image:url("../img/bagulho7.gif") !important;
+    background-repeat: no-repeat;
+    background-size: 120% 140%;
+    
+    
+    
     
 }
 
@@ -22,7 +27,7 @@ body {
 
 header{
 
-    background-color: #0F684B;
+    background-color: transparent;
     height: 100px;
 
 }
@@ -67,6 +72,9 @@ div.box{
     height: 300px;
     border-radius: 16px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 
@@ -75,6 +83,7 @@ div.box{
     text-align: center;
     padding-top: 20px;
     font-size: 30px;
+    color: black;
 
 }
 
@@ -171,6 +180,8 @@ footer{
 #bt0 {
 
     font-family: PoppinsF !important;
+    background-color: rgb(91, 174, 207)
+
 
 }
 

@@ -47,7 +47,7 @@ function standartChart(labels, temp, umid, preci) {
                     label: name,
                     data: data,
                     borderWidth: 2,
-                    borderColor: "#3B8952"
+                    borderColor: "#FFF"
                 }]
             },
             options: {

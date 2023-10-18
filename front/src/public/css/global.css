@@ -201,3 +201,24 @@ footer{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
 
 }
+
+.image{
+    
+    transform: translatey(30px);
+    animation: float 3s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(30px);
+    }
+    50%{
+        transform: translatey(70px);
+    }
+    100%{
+        transform: translatey(30px);
+    }
+}

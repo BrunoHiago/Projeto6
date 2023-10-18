@@ -4,29 +4,9 @@ const mongoose = require("./connection")
 
 const stationSchema = new mongoose.Schema({
 
-    temperatura: {
+       dirVento: {
 
         type: String
-
-    },
-    umidade: {
-
-        type: String
-
-    },
-    velVento: {
-
-        type: Number
-
-    },
-    dirVento: {
-
-        type: String
-
-    },
-    qtdAgua: {
-
-        type: Number
 
     },
     createdAt: {

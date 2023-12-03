@@ -1,28 +1,33 @@
 const express = require("express");
-const station = require("../database/stationSchema")
+const station = require("../database/stationSchema");
 const router = express.Router();
 
-    router.get("/",(req, res) => {
-        station.findOne().sort({_id: "desc"}).then((last_data) => {
+    router.get("/",async (req, res) => {
 
-            console.log(last_data)
-            var information = new Object({
-
-                dirVento: last_data.dirVento
-
-            })
-
-            res.render("homepage/index", { information: information, today: null });
-
-        }).catch((err) => {
-
-            console.log("Error "+err);
-
-        })
-
-
+        var information =  await getData();
+        console.log(information)
+        res.render("homepage/index", { information: information?.dirVento, today: null });
     })
 
-
+const getData = async () => {
+    
+        let information = await station.findOne().sort({_id: "desc"}).then((last_data) => {
+    
+            console.log(last_data)
+            var information = {
+                dirVento: last_data.dirVento
+            }
+    
+            return information;
+    
+        }).catch((err) => {
+    
+            console.log("Error "+err);
+    
+        })
+        
+        return information;
+    }
+    
 //EXPORTS
 module.exports = router;

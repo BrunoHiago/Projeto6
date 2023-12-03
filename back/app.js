@@ -4,9 +4,12 @@ const router = require("./src/app/routes/Routes");
 const app = express();
 require("dotenv").config();
 
+
+
 app.use(bodyParser.json());
 
 app.use("/", router);
+
 
 
 // Iniciando o servidor

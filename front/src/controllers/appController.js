@@ -1,3 +1,4 @@
+
 function loadFunction(dados) {
 
     var ano = String(new Date().getFullYear());
@@ -12,7 +13,7 @@ function loadFunction(dados) {
 
 }
 
-function refresh() {
+ function refresh() {
 
     location.reload();
 
@@ -111,5 +112,12 @@ function deleteCharts() {
     myLineChart[0].destroy();
     myLineChart[1].destroy();
     myLineChart[2].destroy();
+
+}
+
+function refreshPage() {
+    setTimeout(function () {
+        location.reload()
+    }, 1000);
 
 }
